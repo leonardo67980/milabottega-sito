@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <title>Area laboratorio · Mila Bottega</title>
+  <meta name="description" content="Area di lavoro di Mila Bottega: lettura dei codici di personalizzazione.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#06382E">
+  <link rel="icon" type="image/png" href="assets/brand/marchio.png">
+  <link rel="apple-touch-icon" href="assets/brand/marchio.png">
+  <link rel="preload" href="vendor/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="vendor/fonts/montserrat-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+  { "imports": { "three": "./vendor/three/three.module.min.js", "three/addons/": "./vendor/three/addons/" } }
+  </script>
+</head>
+<body class="lab-page">
+<header class="lab-top">
+  <a class="nav-logo" href="index.html" aria-label="Mila Bottega, pagina iniziale">
+    <img src="assets/brand/marchio.png" alt="" width="34" height="35"><span>MILA <b>BOTTEGA</b></span>
+  </a>
+  <span class="lab-badge">Area laboratorio</span>
+</header>
+<main class="wrap lab-main">
+  <h1 class="h2">Dal codice <em>al pezzo.</em></h1>
+  <p class="lead">Incolla qui il codice che il cliente ha scritto nella personalizzazione dell'ordine. Vedi l'anteprima com'era sul suo schermo e la scheda completa, con i nomi del generatore.</p>
+  <form id="labForm" class="lab-form">
+    <label for="codeIn">Codice del cliente</label>
+    <div class="lab-form-row">
+      <input class="inp inp-light" id="codeIn" type="text" placeholder="Es. MB7-c4100140cn-Giulia" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button class="btn btn-green" type="submit">Leggi il codice</button>
+    </div>
+    <p class="lab-msg" id="labMsg" role="status" aria-live="polite"></p>
+    <p class="nota">Prodotti riconosciuti dall'inizio del codice: <span id="labPrefissi"></span>. Va bene anche incollare un link intero.</p>
+  </form>
+  <div class="lab-result">
+    <div class="lab-view-wrap layers-dark"><div class="cfg-view" id="labView" role="img" aria-label="Anteprima in 3D dell'oggetto del codice"></div><p class="lab-view-empty">L'anteprima compare qui.</p></div>
+    <div class="lab-out" id="labOut" hidden></div>
+  </div>
+</main>
+<script type="module" src="js/codice.js"></script>
+</body>
+</html>

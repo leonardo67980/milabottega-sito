@@ -1,0 +1,88 @@
+# Pannello di gestione di Mila Bottega.
+# "repo" va cambiato con il nome vero del deposito GitHub (utente/nome).
+backend:
+  name: github
+  repo: leonardo67980/milabottega-sito
+  branch: main
+locale: it
+site_url: https://milabottega.it
+media_folder: assets/foto
+public_folder: assets/foto
+collections:
+  - name: catalogo
+    label: Catalogo
+    files:
+      - name: prodotti
+        label: Prodotti e categorie
+        file: data/prodotti.json
+        fields:
+          - name: categorie
+            label: Categorie
+            widget: list
+            summary: "{{fields.nome}}"
+            fields:
+              - { name: nome, label: Nome, widget: string }
+              - { name: testo, label: Frase di presentazione, widget: string, required: false }
+          - name: prodotti
+            label: Prodotti
+            widget: list
+            summary: "{{fields.nome}} ({{fields.stato}})"
+            fields:
+              - { name: id, label: "Sigla (senza spazi, es. vaso-onde)", widget: string, pattern: ['^[a-z0-9-]+$', 'Solo lettere minuscole, numeri e trattini'] }
+              - { name: nome, label: Nome completo, widget: string }
+              - { name: nomeBreve, label: Nome corto, widget: string, required: false }
+              - { name: categoria, label: "Categoria (uguale a una delle Categorie)", widget: string }
+              - { name: stato, label: Stato, widget: select, options: [{ label: Disponibile su Etsy, value: disponibile }, { label: In arrivo, value: in-arrivo }], default: in-arrivo }
+              - { name: nascosto, label: Nascondi dal sito, widget: boolean, default: false, required: false }
+              - { name: etsyUrl, label: Link all'annuncio Etsy, widget: string, required: false }
+              - { name: configuratore, label: "Configuratore (coperchio, targa o vuoto)", widget: string, required: false }
+              - { name: breve, label: Descrizione breve, widget: text }
+              - { name: lungo, label: Descrizione lunga (paragrafi), widget: list, field: { name: paragrafo, label: Paragrafo, widget: text }, required: false }
+              - { name: nota, label: Nota piccola, widget: string, required: false }
+              - name: copertina
+                label: Immagine di copertina
+                widget: object
+                fields: &foto
+                  - { name: src, label: Immagine, widget: image }
+                  - { name: alt, label: Cosa si vede (per chi non vede l'immagine), widget: string, required: false }
+                  - { name: tipo, label: Tipo, widget: select, options: [{ label: Foto vera, value: foto }, { label: Anteprima dal programma, value: anteprima }, { label: Illustrazione, value: illustrazione }], default: foto }
+              - { name: foto, label: Galleria, widget: list, summary: "{{fields.alt}}", fields: *foto, required: false }
+              - name: dettagli
+                label: Dettagli (materiale, misure...)
+                widget: list
+                summary: "{{fields.nome}}: {{fields.valore}}"
+                required: false
+                fields:
+                  - { name: nome, label: Voce, widget: string }
+                  - { name: valore, label: Testo, widget: string }
+              - name: faq
+                label: Domande e risposte
+                widget: list
+                summary: "{{fields.domanda}}"
+                required: false
+                fields:
+                  - { name: domanda, label: Domanda, widget: string }
+                  - { name: risposta, label: Risposta, widget: text }
+              - name: storia
+                label: Racconto con foto
+                widget: list
+                summary: "{{fields.titolo}}"
+                required: false
+                fields:
+                  - { name: titolo, label: Titolo, widget: string }
+                  - { name: testo, label: Testo, widget: text }
+                  - { name: foto, label: Immagine, widget: image }
+                  - { name: alt, label: Cosa si vede, widget: string, required: false }
+              - name: varianti
+                label: Varianti
+                widget: list
+                summary: "{{fields.nome}}"
+                required: false
+                fields:
+                  - { name: nome, label: Nome, widget: string }
+                  - { name: forma, label: Forma, widget: string, required: false }
+                  - { name: misure, label: Misure, widget: string, required: false }
+                  - { name: testo, label: Testo, widget: text, required: false }
+                  - { name: foto, label: Immagine, widget: image, required: false }
+                  - { name: alt, label: Cosa si vede, widget: string, required: false }
+                  - { name: set, label: "Impostazione tecnica (non toccare)", widget: string, required: false }

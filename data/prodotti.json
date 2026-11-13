@@ -1,0 +1,925 @@
+{
+  "categorie": [
+    {
+      "nome": "Casa",
+      "testo": "Vasi, portapiante, luci e targhe: le cose che fanno casa."
+    },
+    {
+      "nome": "Cucina",
+      "testo": "Per chi in cucina ci vive: coperchi con il nome, formine per i biscotti."
+    },
+    {
+      "nome": "Regali",
+      "testo": "Piccoli pensieri con un nome sopra, per chi vuoi tu."
+    },
+    {
+      "nome": "Natale",
+      "testo": "Decorazioni con il nome di ognuno, da ritrovare ogni anno."
+    },
+    {
+      "nome": "Dipinti a mano",
+      "testo": "Stampati in 3D e poi dipinti con il pennello, uno per uno."
+    }
+  ],
+  "prodotti": [
+    {
+      "id": "coperchio-tm",
+      "nome": "Coperchio copri-display TM6 e TM7",
+      "nomeBreve": "Coperchi TM6 e TM7 con nome",
+      "categoria": "Cucina",
+      "stato": "disponibile",
+      "etsyUrl": null,
+      "configuratore": "coperchio",
+      "breve": "Il copri-display per il robot da cucina, con il tuo nome in bella scrittura e il motivo che scegli tu. Due colori, a filo, da toccare.",
+      "lungo": [
+        "Protegge il display quando il robot riposa e, soprattutto, lo fa diventare tuo. Sopra ci mettiamo il nome che vuoi, in corsivo, e attorno un motivo: linee, onde, esagoni, fiocchi di neve…",
+        "Scritta e motivo non sono stampati sopra né incollati: sono un intarsio di un secondo colore, a filo con la superficie. Passi il dito e senti un piano solo, opaco, con dei piccoli brillantini."
+      ],
+      "nota": "Compatibile con Bimby® TM6 e TM7 (marchio di Vorwerk, non affiliato).",
+      "copertina": {
+        "src": "assets/foto/G_Giulia_dettaglio.jpg",
+        "alt": "Coperchio nero con il nome Giulia e utensili da cucina in rosso, tenuto in mano",
+        "tipo": "foto"
+      },
+      "foto": [
+        {
+          "src": "assets/foto/01_TM7-copertina-Giulia.jpg",
+          "alt": "Coperchio TM7 nero con il nome Giulia in rosso, montato sul robot",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/04_TM6-copertina-Marchi.jpg",
+          "alt": "Coperchio TM6 nero con il nome Marchi in bianco, con l'incavo tondo per la manopola",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/05_TM7-dettaglio-Giulia-e-texture.jpg",
+          "alt": "Dettaglio ravvicinato: la scritta Giulia rossa a filo nel nero opaco con brillantini",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/02_TM6-copridisplay-montato.jpg",
+          "alt": "Coperchio TM6 con scritta Marchi montato sul robot da cucina, con la manopola libera",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/07_TM6-dettaglio-Marchi.jpg",
+          "alt": "Dettaglio della scritta Marchi bianca con piccoli utensili da cucina",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/03_TM7-display-scoperto.jpg",
+          "alt": "Coperchio TM7 Giulia visto da vicino sul robot",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/A_TM6_Marchi_sul_robot.jpg",
+          "alt": "Il coperchio TM6 Marchi in cucina, sul robot, visto dall'alto",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/F_TM7_Giulia_sul_robot_2.jpg",
+          "alt": "Il coperchio TM7 Giulia in cucina, sul robot",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/G_Giulia_dettaglio.jpg",
+          "alt": "Il coperchio TM7 Giulia tenuto in mano, nero e rosso",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/foto/08_TM6-retro-e-incavo.jpg",
+          "alt": "Il retro del coperchio TM6: sponde sottili e incavo per la manopola",
+          "tipo": "foto"
+        },
+        {
+          "src": "assets/render/tm7_natale.png",
+          "alt": "Anteprima di un coperchio TM7 rosso con fiocchi di neve bianchi e la scritta Buon Natale",
+          "tipo": "anteprima"
+        },
+        {
+          "src": "assets/render/tm6_natale.png",
+          "alt": "Anteprima di un coperchio TM6 rosso con fiocchi di neve bianchi e la scritta Buon Natale",
+          "tipo": "anteprima"
+        }
+      ],
+      "storia": [
+        {
+          "titolo": "Sul robot, come se fosse nato lì",
+          "testo": "Si appoggia sopra al display e ci sta preciso: le misure sono prese sul robot vero. Quando cucini lo togli, quando hai finito lo rimetti. E la cucina ha il tuo nome.",
+          "foto": "assets/foto/E_TM7_Giulia_sul_robot.jpg",
+          "alt": "Coperchio TM7 con il nome Giulia sul robot da cucina, in una cucina vera"
+        },
+        {
+          "titolo": "Guardalo da vicino",
+          "testo": "Il nome e il motivo sono un secondo colore incastonato nel primo, perfettamente a filo. La superficie è opaca, con una grana fine e dei brillantini che si accendono con la luce.",
+          "foto": "assets/foto/05_TM7-dettaglio-Giulia-e-texture.jpg",
+          "alt": "Primo piano della superficie: rosso a filo nel nero, grana fine con brillantini"
+        },
+        {
+          "titolo": "Anche il retro è pensato",
+          "testo": "Sotto, delle sponde sottili lo tengono fermo. Sul TM6 c'è un incavo tondo che gira attorno alla manopola: la usi senza togliere niente.",
+          "foto": "assets/foto/06_TM6-incastro-con-manopola.jpg",
+          "alt": "Il coperchio TM6 sul robot: l'incavo tondo abbraccia la manopola"
+        },
+        {
+          "titolo": "Ogni coperchio è uno solo",
+          "testo": "Lo stampiamo quando lo ordini, con il tuo nome e i tuoi colori. Prima di stampare ti mandiamo la bozza: si parte solo quando ti piace.",
+          "foto": "assets/foto/C_Marchi_dettaglio.jpg",
+          "alt": "Il coperchio TM6 Marchi nero e bianco appoggiato su un pizzo"
+        }
+      ],
+      "varianti": [
+        {
+          "nome": "TM6",
+          "forma": "Una lastra sottile",
+          "misure": "181,5 × 117,5 mm · spessa 1,5 mm",
+          "testo": "Sponde sottili sopra, sotto e a sinistra. A destra, l'incavo tondo per la manopola.",
+          "foto": "assets/foto/04_TM6-copertina-Marchi.jpg",
+          "alt": "Coperchio TM6 con il nome Marchi",
+          "set": "{\"model\":\"tm6\"}"
+        },
+        {
+          "nome": "TM7",
+          "forma": "Una vaschetta bassa",
+          "misure": "252,4 × 169,4 mm · alta 13 mm",
+          "testo": "Si appoggia sopra al display grande e lo copre tutto, bordi compresi.",
+          "foto": "assets/foto/G_Giulia_dettaglio.jpg",
+          "alt": "Coperchio TM7 con il nome Giulia",
+          "set": "{\"model\":\"tm7\"}"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, una plastica di origine vegetale, stampata con filamenti originali"
+        },
+        {
+          "nome": "Lavorazione",
+          "valore": "Intarsio a due colori, a filo: scritta e motivo sono un secondo filamento incastonato nel primo"
+        },
+        {
+          "nome": "Finitura",
+          "valore": "Opaca, con grana fine e brillantini"
+        },
+        {
+          "nome": "Colori",
+          "valore": "22 colori da abbinare come vuoi"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Nome o scritta fino a 20 lettere, 4 caratteri, 8 motivi"
+        },
+        {
+          "nome": "Pulizia",
+          "valore": "Panno umido. Non va in lavastoviglie e non ama il calore forte"
+        },
+        {
+          "nome": "Tempi",
+          "valore": "2-4 giorni per farlo, poi la spedizione"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Il coperchio va bene per il mio robot?",
+          "risposta": "Lo facciamo in due misure: per il TM6 (una lastra sottile con l'incavo per la manopola) e per il TM7 (una vaschetta che copre il display grande). Scegli il tuo modello nel configuratore e poi su Etsy."
+        },
+        {
+          "domanda": "Come si pulisce?",
+          "risposta": "Con un panno umido, e basta. Non va in lavastoviglie."
+        },
+        {
+          "domanda": "Posso avere un disegno diverso, come gli utensili da cucina delle foto?",
+          "risposta": "Sì. Scrivilo nel messaggio dell'ordine su Etsy: prepariamo la bozza e te la mandiamo prima di stampare."
+        },
+        {
+          "domanda": "Devo toglierlo quando cucino?",
+          "risposta": "Sì: è un copri-display, serve quando il robot è a riposo. Tienilo lontano da pentole calde e vapore."
+        },
+        {
+          "domanda": "Si rovina con il tempo?",
+          "risposta": "Il colore è nel materiale, non sopra: non si stacca e si pulisce con un panno umido. Non lasciarlo al sole dietro un vetro o vicino ai fornelli, perché il PLA teme il calore."
+        }
+      ]
+    },
+    {
+      "id": "vaso-decorativo",
+      "nome": "Vasi decorativi",
+      "nomeBreve": "Vasi decorativi",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Vasi a coste, a onde, sfaccettati: forme che a mano non si riescono a fare, nel colore che sta bene a casa tua.",
+      "lungo": [
+        "Vasi decorativi dalle forme morbide o geometriche: coste ritorte, onde, facce a diamante. Ogni forma si può avere in più misure e in tutti i nostri colori.",
+        "Sono pensati per fiori secchi e composizioni. Alcuni modelli li rifiniamo e li dipingiamo a mano."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/vaso.svg",
+        "alt": "Illustrazione di un vaso color avorio con coste ritorte",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/vaso.svg",
+          "alt": "Illustrazione di un vaso color avorio con coste ritorte",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Forma, misura, colore"
+        },
+        {
+          "nome": "Uso",
+          "valore": "Per fiori secchi e decorazione"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "portapiante",
+      "nome": "Portapiante",
+      "nomeBreve": "Portapiante",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Coprivasi sfaccettati o a righe per le piante di casa, della misura giusta per il tuo vaso.",
+      "lungo": [
+        "Portapiante e coprivasi dalle forme decise: sfaccettati, a coste, a onde. Li facciamo nella misura del vaso che hai già."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/portapiante.svg",
+        "alt": "Illustrazione di un portapiante verde sfaccettato con una pianta",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/portapiante.svg",
+          "alt": "Illustrazione di un portapiante verde sfaccettato con una pianta",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Forma, misura, colore"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "paralume",
+      "nome": "Paralumi",
+      "nomeBreve": "Paralumi",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Paralumi che disegnano la luce: attraverso le onde e le coste passa un chiarore morbido.",
+      "lungo": [
+        "Paralumi stampati in un pezzo solo. La luce passa attraverso lo spessore sottile e mette in risalto ogni riga della stampa.",
+        "Vanno usati solo con lampadine a LED, che non scaldano."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/paralume.svg",
+        "alt": "Illustrazione di un paralume a onde con la luce accesa",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/paralume.svg",
+          "alt": "Illustrazione di un paralume a onde con la luce accesa",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Forma, misura, colore"
+        },
+        {
+          "nome": "Lampadina",
+          "valore": "Solo LED (non scalda)"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "portaluce",
+      "nome": "Portaluce e lanterne",
+      "nomeBreve": "Portaluce e lanterne",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Piccole lanterne traforate per lumini a LED: di sera riempiono la stanza di disegni di luce.",
+      "lungo": [
+        "Portaluce e lanterne con le pareti traforate o sottili, da usare con lumini a LED."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/lanterna.svg",
+        "alt": "Illustrazione di una lanterna chiara traforata con la luce accesa",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/lanterna.svg",
+          "alt": "Illustrazione di una lanterna chiara traforata con la luce accesa",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Motivo, misura, colore"
+        },
+        {
+          "nome": "Luce",
+          "valore": "Solo lumini a LED, non candele vere"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "targa-famiglia",
+      "nome": "Targa famiglia a forma di casa",
+      "nomeBreve": "Targa famiglia",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": "targa",
+      "breve": "Una casetta per la porta di casa: il cognome, il numero civico e la famiglia al completo. Cane compreso.",
+      "lungo": [
+        "Una targa a forma di casa con il nome della famiglia, il numero e le figure di chi ci abita: grandi, bambini, amici a quattro zampe.",
+        "Ogni colore è un filamento diverso, stampato insieme agli altri. La stiamo mettendo a punto: intanto puoi provare la tua nell'anteprima qui sotto."
+      ],
+      "copertina": {
+        "src": "assets/render/targa.png",
+        "alt": "Anteprima di una targa a forma di casa con scritto Famiglia Rossi, il numero 12, quattro figure e un cane",
+        "tipo": "anteprima"
+      },
+      "foto": [
+        {
+          "src": "assets/render/targa.png",
+          "alt": "Anteprima di una targa a forma di casa con scritto Famiglia Rossi, il numero 12, quattro figure e un cane",
+          "tipo": "anteprima"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Cognome, numero civico, figure della famiglia, colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "sottobicchieri",
+      "nome": "Sottobicchieri decorati",
+      "nomeBreve": "Sottobicchieri",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Un set di sottobicchieri a fiore con il decoro a intarsio. Per la tavola di tutti i giorni e per quella delle feste.",
+      "lungo": [
+        "Sottobicchieri con il motivo incastonato a filo, nei colori della tua tavola."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/sottobicchieri.svg",
+        "alt": "Illustrazione di due sottobicchieri a forma di fiore con un decoro a raggiera",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/sottobicchieri.svg",
+          "alt": "Illustrazione di due sottobicchieri a forma di fiore con un decoro a raggiera",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Motivo e colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "quadretto-disegno",
+      "nome": "Quadretto dal disegno del tuo bambino",
+      "nomeBreve": "Quadretti dai disegni dei bambini",
+      "categoria": "Casa",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Il disegno di tuo figlio diventa una formella a rilievo, a più colori, dentro la sua cornice.",
+      "lungo": [
+        "Ci mandi la foto di un disegno e noi lo trasformiamo in una formella a rilievo, colore per colore, con la sua cornice da appendere.",
+        "Un regalo per i nonni che non finisce in un cassetto."
+      ],
+      "copertina": {
+        "src": "assets/render/quadretto.png",
+        "alt": "Anteprima di un quadretto con cornice color oro e una faccina sorridente a rilievo",
+        "tipo": "anteprima"
+      },
+      "foto": [
+        {
+          "src": "assets/render/quadretto.png",
+          "alt": "Anteprima di un quadretto con cornice color oro e una faccina sorridente a rilievo",
+          "tipo": "anteprima"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA a più colori"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Dal disegno originale"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "formine-biscotti",
+      "nome": "Formine per biscotti",
+      "nomeBreve": "Formine per biscotti",
+      "categoria": "Cucina",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Tagliabiscotti con la forma che vuoi tu: un nome, un animale, il personaggio della festa.",
+      "lungo": [
+        "Formine tagliabiscotti su misura, anche da un tuo disegno semplice. Belle da regalare insieme a una ricetta."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/formine.svg",
+        "alt": "Illustrazione di due formine per biscotti, una a stella e una a cuore",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/formine.svg",
+          "alt": "Illustrazione di due formine per biscotti, una a stella e una a cuore",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Forma e misura"
+        },
+        {
+          "nome": "Pulizia",
+          "valore": "A mano con acqua tiepida, non in lavastoviglie"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "portachiavi-nome",
+      "nome": "Portachiavi con nome",
+      "nomeBreve": "Portachiavi con nome",
+      "categoria": "Regali",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Il nome di chi vuoi tu, a due colori, sempre in tasca. Leggero e robusto.",
+      "lungo": [
+        "Portachiavi con il nome a intarsio in un secondo colore. Per le chiavi di casa, lo zaino di scuola, la valigia."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/portachiavi-nome.svg",
+        "alt": "Illustrazione di un portachiavi rosa con il nome Sofia",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/portachiavi-nome.svg",
+          "alt": "Illustrazione di un portachiavi rosa con il nome Sofia",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Nome, carattere, colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "medaglietta-animali",
+      "nome": "Medagliette per animali",
+      "nomeBreve": "Medagliette per animali",
+      "categoria": "Regali",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "La medaglietta per il collare con il nome del tuo amico a quattro zampe e, dietro, il tuo numero.",
+      "lungo": [
+        "Medagliette leggere per cani e gatti: il nome davanti, il numero di telefono dietro."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/medaglietta.svg",
+        "alt": "Illustrazione di una medaglietta gialla a forma di osso con il nome Luna",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/medaglietta.svg",
+          "alt": "Illustrazione di una medaglietta gialla a forma di osso con il nome Luna",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Nome, numero, forma, colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "segnalibro",
+      "nome": "Segnalibri con nome",
+      "nomeBreve": "Segnalibri",
+      "categoria": "Regali",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Un segnalibro sottile con un nome o una frase, per chi legge sempre.",
+      "lungo": [
+        "Segnalibri sottili e flessibili, con il nome o una dedica a intarsio."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/segnalibro.svg",
+        "alt": "Illustrazione di un segnalibro verde con il nome Martina dentro un libro",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/segnalibro.svg",
+          "alt": "Illustrazione di un segnalibro verde con il nome Martina dentro un libro",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Nome o frase, colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "cake-topper",
+      "nome": "Cake topper",
+      "nomeBreve": "Cake topper",
+      "categoria": "Regali",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "La scritta sopra la torta: il nome, gli anni, gli auguri. Si conserva dopo la festa.",
+      "lungo": [
+        "Decorazioni per torte con il nome e l'età del festeggiato, nei colori della festa."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/cake-topper.svg",
+        "alt": "Illustrazione di un cake topper con la scritta Auguri sopra una torta",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/cake-topper.svg",
+          "alt": "Illustrazione di un cake topper con la scritta Auguri sopra una torta",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Scritta, numero, colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "bomboniera",
+      "nome": "Bomboniere e scatoline",
+      "nomeBreve": "Bomboniere",
+      "categoria": "Regali",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Scatoline con il coperchio personalizzato per battesimi, comunioni, matrimoni. Tutte uguali, ma solo tue.",
+      "lungo": [
+        "Piccoli contenitori con il coperchio decorato: iniziali, una data, un simbolo. Fatti nella quantità che ti serve."
+      ],
+      "copertina": {
+        "src": "assets/render/bomboniera.png",
+        "alt": "Anteprima di scatoline rotonde color sabbia con il coperchio decorato",
+        "tipo": "anteprima"
+      },
+      "foto": [
+        {
+          "src": "assets/render/bomboniera.png",
+          "alt": "Anteprima di scatoline rotonde color sabbia con il coperchio decorato",
+          "tipo": "anteprima"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Iniziali, data, simbolo, colore"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "pallina-natale",
+      "nome": "Decorazioni e palline di Natale con il nome",
+      "nomeBreve": "Decorazioni e palline con nome",
+      "categoria": "Natale",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Una decorazione per ogni nome di casa. Da appendere all'albero, o al pacchetto al posto del biglietto.",
+      "lungo": [
+        "Palline e decorazioni per l'albero con il nome di ciascuno, nei colori che scegli. Leggere, non si rompono se cadono."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/pallina.svg",
+        "alt": "Illustrazione di una pallina di Natale rossa con un nome scritto in corsivo",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/pallina.svg",
+          "alt": "Illustrazione di una pallina di Natale rossa con un nome scritto in corsivo",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA, stampato con filamenti colorati veri"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Nome e colori"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    },
+    {
+      "id": "dipinti-a-mano",
+      "nome": "Oggetti dipinti a mano",
+      "nomeBreve": "Oggetti dipinti a mano",
+      "categoria": "Dipinti a mano",
+      "stato": "in-arrivo",
+      "etsyUrl": null,
+      "configuratore": null,
+      "breve": "Piattini, vasetti e piccoli oggetti stampati in 3D e poi decorati con il pennello. Ognuno è un pezzo unico.",
+      "lungo": [
+        "Alcuni dei nostri oggetti non finiscono quando esce l'ultimo strato: li prepariamo e li dipingiamo a mano, uno per uno, con fiori, foglie e motivi della tradizione.",
+        "Proprio perché sono fatti a mano, non ce ne sono due uguali."
+      ],
+      "copertina": {
+        "src": "assets/illustrazioni/dipinto.svg",
+        "alt": "Illustrazione di un piattino decorato a mano con fiori gialli e foglie verdi, con un pennello accanto",
+        "tipo": "illustrazione"
+      },
+      "foto": [
+        {
+          "src": "assets/illustrazioni/dipinto.svg",
+          "alt": "Illustrazione di un piattino decorato a mano con fiori gialli e foglie verdi, con un pennello accanto",
+          "tipo": "illustrazione"
+        }
+      ],
+      "dettagli": [
+        {
+          "nome": "Materiale",
+          "valore": "PLA stampato in 3D, decorato a mano con colori a pennello"
+        },
+        {
+          "nome": "Personalizzazione",
+          "valore": "Soggetto e colori, da concordare"
+        },
+        {
+          "nome": "Lavorazione",
+          "valore": "Dipinto a mano: ogni pezzo è diverso"
+        },
+        {
+          "nome": "Pulizia",
+          "valore": "Solo un panno asciutto o appena umido"
+        },
+        {
+          "nome": "Stato",
+          "valore": "In preparazione: le foto vere arrivano presto"
+        }
+      ],
+      "faq": [
+        {
+          "domanda": "Quando sarà disponibile?",
+          "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
+        }
+      ],
+      "varianti": []
+    }
+  ]
+}
