@@ -2,7 +2,7 @@
   "categorie": [
     {
       "nome": "Casa",
-      "testo": "Vasi, portapiante, luci e targhe: le cose che fanno casa."
+      "testo": "Vasi, portapiante, luci e targhe: le cose che fanno casa. (prova)"
     },
     {
       "nome": "Cucina",
@@ -28,7 +28,8 @@
       "nomeBreve": "Coperchi TM6 e TM7 con nome",
       "categoria": "Cucina",
       "stato": "disponibile",
-      "etsyUrl": null,
+      "nascosto": false,
+      "etsyUrl": "",
       "configuratore": "coperchio",
       "breve": "Il copri-display per il robot da cucina, con il tuo nome in bella scrittura e il motivo che scegli tu. Due colori, a filo, da toccare.",
       "lungo": [
@@ -103,52 +104,6 @@
           "tipo": "anteprima"
         }
       ],
-      "storia": [
-        {
-          "titolo": "Sul robot, come se fosse nato lì",
-          "testo": "Si appoggia sopra al display e ci sta preciso: le misure sono prese sul robot vero. Quando cucini lo togli, quando hai finito lo rimetti. E la cucina ha il tuo nome.",
-          "foto": "assets/foto/E_TM7_Giulia_sul_robot.jpg",
-          "alt": "Coperchio TM7 con il nome Giulia sul robot da cucina, in una cucina vera"
-        },
-        {
-          "titolo": "Guardalo da vicino",
-          "testo": "Il nome e il motivo sono un secondo colore incastonato nel primo, perfettamente a filo. La superficie è opaca, con una grana fine e dei brillantini che si accendono con la luce.",
-          "foto": "assets/foto/05_TM7-dettaglio-Giulia-e-texture.jpg",
-          "alt": "Primo piano della superficie: rosso a filo nel nero, grana fine con brillantini"
-        },
-        {
-          "titolo": "Anche il retro è pensato",
-          "testo": "Sotto, delle sponde sottili lo tengono fermo. Sul TM6 c'è un incavo tondo che gira attorno alla manopola: la usi senza togliere niente.",
-          "foto": "assets/foto/06_TM6-incastro-con-manopola.jpg",
-          "alt": "Il coperchio TM6 sul robot: l'incavo tondo abbraccia la manopola"
-        },
-        {
-          "titolo": "Ogni coperchio è uno solo",
-          "testo": "Lo stampiamo quando lo ordini, con il tuo nome e i tuoi colori. Prima di stampare ti mandiamo la bozza: si parte solo quando ti piace.",
-          "foto": "assets/foto/C_Marchi_dettaglio.jpg",
-          "alt": "Il coperchio TM6 Marchi nero e bianco appoggiato su un pizzo"
-        }
-      ],
-      "varianti": [
-        {
-          "nome": "TM6",
-          "forma": "Una lastra sottile",
-          "misure": "181,5 × 117,5 mm · spessa 1,5 mm",
-          "testo": "Sponde sottili sopra, sotto e a sinistra. A destra, l'incavo tondo per la manopola.",
-          "foto": "assets/foto/04_TM6-copertina-Marchi.jpg",
-          "alt": "Coperchio TM6 con il nome Marchi",
-          "set": "{\"model\":\"tm6\"}"
-        },
-        {
-          "nome": "TM7",
-          "forma": "Una vaschetta bassa",
-          "misure": "252,4 × 169,4 mm · alta 13 mm",
-          "testo": "Si appoggia sopra al display grande e lo copre tutto, bordi compresi.",
-          "foto": "assets/foto/G_Giulia_dettaglio.jpg",
-          "alt": "Coperchio TM7 con il nome Giulia",
-          "set": "{\"model\":\"tm7\"}"
-        }
-      ],
       "dettagli": [
         {
           "nome": "Materiale",
@@ -200,6 +155,52 @@
           "domanda": "Si rovina con il tempo?",
           "risposta": "Il colore è nel materiale, non sopra: non si stacca e si pulisce con un panno umido. Non lasciarlo al sole dietro un vetro o vicino ai fornelli, perché il PLA teme il calore."
         }
+      ],
+      "storia": [
+        {
+          "titolo": "Sul robot, come se fosse nato lì",
+          "testo": "Si appoggia sopra al display e ci sta preciso: le misure sono prese sul robot vero. Quando cucini lo togli, quando hai finito lo rimetti. E la cucina ha il tuo nome.",
+          "foto": "assets/foto/E_TM7_Giulia_sul_robot.jpg",
+          "alt": "Coperchio TM7 con il nome Giulia sul robot da cucina, in una cucina vera"
+        },
+        {
+          "titolo": "Guardalo da vicino",
+          "testo": "Il nome e il motivo sono un secondo colore incastonato nel primo, perfettamente a filo. La superficie è opaca, con una grana fine e dei brillantini che si accendono con la luce.",
+          "foto": "assets/foto/05_TM7-dettaglio-Giulia-e-texture.jpg",
+          "alt": "Primo piano della superficie: rosso a filo nel nero, grana fine con brillantini"
+        },
+        {
+          "titolo": "Anche il retro è pensato",
+          "testo": "Sotto, delle sponde sottili lo tengono fermo. Sul TM6 c'è un incavo tondo che gira attorno alla manopola: la usi senza togliere niente.",
+          "foto": "assets/foto/06_TM6-incastro-con-manopola.jpg",
+          "alt": "Il coperchio TM6 sul robot: l'incavo tondo abbraccia la manopola"
+        },
+        {
+          "titolo": "Ogni coperchio è uno solo",
+          "testo": "Lo stampiamo quando lo ordini, con il tuo nome e i tuoi colori. Prima di stampare ti mandiamo la bozza: si parte solo quando ti piace.",
+          "foto": "assets/foto/C_Marchi_dettaglio.jpg",
+          "alt": "Il coperchio TM6 Marchi nero e bianco appoggiato su un pizzo"
+        }
+      ],
+      "varianti": [
+        {
+          "nome": "TM6",
+          "forma": "Una lastra sottile",
+          "misure": "181,5 × 117,5 mm · spessa 1,5 mm",
+          "testo": "Sponde sottili sopra, sotto e a sinistra. A destra, l'incavo tondo per la manopola.",
+          "foto": "assets/foto/04_TM6-copertina-Marchi.jpg",
+          "alt": "Coperchio TM6 con il nome Marchi",
+          "set": "{\"model\":\"tm6\"}"
+        },
+        {
+          "nome": "TM7",
+          "forma": "Una vaschetta bassa",
+          "misure": "252,4 × 169,4 mm · alta 13 mm",
+          "testo": "Si appoggia sopra al display grande e lo copre tutto, bordi compresi.",
+          "foto": "assets/foto/G_Giulia_dettaglio.jpg",
+          "alt": "Coperchio TM7 con il nome Giulia",
+          "set": "{\"model\":\"tm7\"}"
+        }
       ]
     },
     {
@@ -208,13 +209,15 @@
       "nomeBreve": "Vasi decorativi",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Vasi a coste, a onde, sfaccettati: forme che a mano non si riescono a fare, nel colore che sta bene a casa tua.",
       "lungo": [
         "Vasi decorativi dalle forme morbide o geometriche: coste ritorte, onde, facce a diamante. Ogni forma si può avere in più misure e in tutti i nostri colori.",
         "Sono pensati per fiori secchi e composizioni. Alcuni modelli li rifiniamo e li dipingiamo a mano."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/vaso.svg",
         "alt": "Illustrazione di un vaso color avorio con coste ritorte",
@@ -251,6 +254,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -259,12 +263,14 @@
       "nomeBreve": "Portapiante",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Coprivasi sfaccettati o a righe per le piante di casa, della misura giusta per il tuo vaso.",
       "lungo": [
         "Portapiante e coprivasi dalle forme decise: sfaccettati, a coste, a onde. Li facciamo nella misura del vaso che hai già."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/portapiante.svg",
         "alt": "Illustrazione di un portapiante verde sfaccettato con una pianta",
@@ -297,6 +303,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -305,13 +312,15 @@
       "nomeBreve": "Paralumi",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Paralumi che disegnano la luce: attraverso le onde e le coste passa un chiarore morbido.",
       "lungo": [
         "Paralumi stampati in un pezzo solo. La luce passa attraverso lo spessore sottile e mette in risalto ogni riga della stampa.",
         "Vanno usati solo con lampadine a LED, che non scaldano."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/paralume.svg",
         "alt": "Illustrazione di un paralume a onde con la luce accesa",
@@ -348,6 +357,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -356,12 +366,14 @@
       "nomeBreve": "Portaluce e lanterne",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Piccole lanterne traforate per lumini a LED: di sera riempiono la stanza di disegni di luce.",
       "lungo": [
         "Portaluce e lanterne con le pareti traforate o sottili, da usare con lumini a LED."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/lanterna.svg",
         "alt": "Illustrazione di una lanterna chiara traforata con la luce accesa",
@@ -398,6 +410,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -406,13 +419,15 @@
       "nomeBreve": "Targa famiglia",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
+      "nascosto": false,
+      "etsyUrl": "",
       "configuratore": "targa",
       "breve": "Una casetta per la porta di casa: il cognome, il numero civico e la famiglia al completo. Cane compreso.",
       "lungo": [
         "Una targa a forma di casa con il nome della famiglia, il numero e le figure di chi ci abita: grandi, bambini, amici a quattro zampe.",
         "Ogni colore è un filamento diverso, stampato insieme agli altri. La stiamo mettendo a punto: intanto puoi provare la tua nell'anteprima qui sotto."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/render/targa.png",
         "alt": "Anteprima di una targa a forma di casa con scritto Famiglia Rossi, il numero 12, quattro figure e un cane",
@@ -445,6 +460,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -453,12 +469,14 @@
       "nomeBreve": "Sottobicchieri",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Un set di sottobicchieri a fiore con il decoro a intarsio. Per la tavola di tutti i giorni e per quella delle feste.",
       "lungo": [
         "Sottobicchieri con il motivo incastonato a filo, nei colori della tua tavola."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/sottobicchieri.svg",
         "alt": "Illustrazione di due sottobicchieri a forma di fiore con un decoro a raggiera",
@@ -491,6 +509,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -499,13 +518,15 @@
       "nomeBreve": "Quadretti dai disegni dei bambini",
       "categoria": "Casa",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Il disegno di tuo figlio diventa una formella a rilievo, a più colori, dentro la sua cornice.",
       "lungo": [
         "Ci mandi la foto di un disegno e noi lo trasformiamo in una formella a rilievo, colore per colore, con la sua cornice da appendere.",
         "Un regalo per i nonni che non finisce in un cassetto."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/render/quadretto.png",
         "alt": "Anteprima di un quadretto con cornice color oro e una faccina sorridente a rilievo",
@@ -538,6 +559,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -546,12 +568,14 @@
       "nomeBreve": "Formine per biscotti",
       "categoria": "Cucina",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Tagliabiscotti con la forma che vuoi tu: un nome, un animale, il personaggio della festa.",
       "lungo": [
         "Formine tagliabiscotti su misura, anche da un tuo disegno semplice. Belle da regalare insieme a una ricetta."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/formine.svg",
         "alt": "Illustrazione di due formine per biscotti, una a stella e una a cuore",
@@ -588,6 +612,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -596,12 +621,14 @@
       "nomeBreve": "Portachiavi con nome",
       "categoria": "Regali",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Il nome di chi vuoi tu, a due colori, sempre in tasca. Leggero e robusto.",
       "lungo": [
         "Portachiavi con il nome a intarsio in un secondo colore. Per le chiavi di casa, lo zaino di scuola, la valigia."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/portachiavi-nome.svg",
         "alt": "Illustrazione di un portachiavi rosa con il nome Sofia",
@@ -634,6 +661,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -642,12 +670,14 @@
       "nomeBreve": "Medagliette per animali",
       "categoria": "Regali",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "La medaglietta per il collare con il nome del tuo amico a quattro zampe e, dietro, il tuo numero.",
       "lungo": [
         "Medagliette leggere per cani e gatti: il nome davanti, il numero di telefono dietro."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/medaglietta.svg",
         "alt": "Illustrazione di una medaglietta gialla a forma di osso con il nome Luna",
@@ -680,6 +710,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -688,12 +719,14 @@
       "nomeBreve": "Segnalibri",
       "categoria": "Regali",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Un segnalibro sottile con un nome o una frase, per chi legge sempre.",
       "lungo": [
         "Segnalibri sottili e flessibili, con il nome o una dedica a intarsio."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/segnalibro.svg",
         "alt": "Illustrazione di un segnalibro verde con il nome Martina dentro un libro",
@@ -726,6 +759,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -734,12 +768,14 @@
       "nomeBreve": "Cake topper",
       "categoria": "Regali",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "La scritta sopra la torta: il nome, gli anni, gli auguri. Si conserva dopo la festa.",
       "lungo": [
         "Decorazioni per torte con il nome e l'età del festeggiato, nei colori della festa."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/cake-topper.svg",
         "alt": "Illustrazione di un cake topper con la scritta Auguri sopra una torta",
@@ -772,6 +808,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -780,12 +817,14 @@
       "nomeBreve": "Bomboniere",
       "categoria": "Regali",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Scatoline con il coperchio personalizzato per battesimi, comunioni, matrimoni. Tutte uguali, ma solo tue.",
       "lungo": [
         "Piccoli contenitori con il coperchio decorato: iniziali, una data, un simbolo. Fatti nella quantità che ti serve."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/render/bomboniera.png",
         "alt": "Anteprima di scatoline rotonde color sabbia con il coperchio decorato",
@@ -818,6 +857,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -826,12 +866,14 @@
       "nomeBreve": "Decorazioni e palline con nome",
       "categoria": "Natale",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Una decorazione per ogni nome di casa. Da appendere all'albero, o al pacchetto al posto del biglietto.",
       "lungo": [
         "Palline e decorazioni per l'albero con il nome di ciascuno, nei colori che scegli. Leggere, non si rompono se cadono."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/pallina.svg",
         "alt": "Illustrazione di una pallina di Natale rossa con un nome scritto in corsivo",
@@ -864,6 +906,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     },
     {
@@ -872,13 +915,15 @@
       "nomeBreve": "Oggetti dipinti a mano",
       "categoria": "Dipinti a mano",
       "stato": "in-arrivo",
-      "etsyUrl": null,
-      "configuratore": null,
+      "nascosto": false,
+      "etsyUrl": "",
+      "configuratore": "",
       "breve": "Piattini, vasetti e piccoli oggetti stampati in 3D e poi decorati con il pennello. Ognuno è un pezzo unico.",
       "lungo": [
         "Alcuni dei nostri oggetti non finiscono quando esce l'ultimo strato: li prepariamo e li dipingiamo a mano, uno per uno, con fiori, foglie e motivi della tradizione.",
         "Proprio perché sono fatti a mano, non ce ne sono due uguali."
       ],
+      "nota": "",
       "copertina": {
         "src": "assets/illustrazioni/dipinto.svg",
         "alt": "Illustrazione di un piattino decorato a mano con fiori gialli e foglie verdi, con un pennello accanto",
@@ -919,6 +964,7 @@
           "risposta": "Lo stiamo mettendo a punto in laboratorio. Seguici su Instagram o scrivici: ti avvisiamo appena è su Etsy."
         }
       ],
+      "storia": [],
       "varianti": []
     }
   ]
